@@ -7,7 +7,7 @@ set_time_limit(0);
 $app = require __DIR__ . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
 $app->register(new ConsoleServiceProvider(), array(
-    'console.name'              => 'Cconsole',
+    'console.name'              => 'Console',
     'console.version'           => '0.0.0',
     'console.project_directory' => __DIR__ . DIRECTORY_SEPARATOR
 ));
